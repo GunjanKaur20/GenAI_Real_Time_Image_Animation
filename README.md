@@ -7,7 +7,7 @@ The Project is real time application in opencv using first order model
 
 **Python version** : python v3.7.3 or higher
 
-**create virual environment** : ```pip install virtualenv```
+**create virtual environment** : ```pip install virtualenv```
 
 **activate virtual environment** : ```virtualenv env```
 

@@ -24,7 +24,9 @@ if sys.version_info[0] < 3:
 def load_checkpoints(config_path, checkpoint_path, cpu=False):
 
     with open(config_path) as f:
-        config = yaml.load(f)
+        import yaml
+        config = yaml.load(f, Loader=yaml.FullLoader)
+
 
     generator = OcclusionAwareGenerator(**config['model_params']['generator_params'],
                                         **config['model_params']['common_params'])
@@ -145,6 +147,10 @@ if __name__ == "__main__":
     source_image = resize(source_image, (256, 256))[..., :3]
     driving_video = [resize(frame, (256, 256))[..., :3] for frame in driving_video]
     generator, kp_detector = load_checkpoints(config_path=opt.config, checkpoint_path=opt.checkpoint, cpu=opt.cpu)
+    
+    import psutil, os
+    process = psutil.Process(os.getpid())
+    print(f"RAM used: {process.memory_info().rss / 1024 ** 2:.2f} MB")
 
     if opt.find_best_frame or opt.best_frame is not None:
         i = opt.best_frame if opt.best_frame is not None else find_best_frame(source_image, driving_video, cpu=opt.cpu)
