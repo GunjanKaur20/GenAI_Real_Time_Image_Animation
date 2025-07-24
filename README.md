@@ -141,8 +141,10 @@ Future plans adding deepfake voice and merging with video
 
 
 
+
 📜 License
 This project is licensed under the MIT License.
+
 
 🌟 Acknowledgements
 
@@ -153,9 +155,6 @@ Inspired by research in deepfake and motion transfer
 
 Credits
 
-```
-@
-
 - video explanation to the project <br/>
     * [Video explanation by original author](https://www.youtube.com/watch?v=u-0cQ-grXBQ)
     * [Two min papers](https://www.youtube.com/watch?v=mUfJOQKdtAk)    
@@ -165,12 +164,12 @@ Credits
     * [link to colab version](https://colab.research.google.com/github/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb)
 
 
-transfer
 
 🤝 Contributing
 
 Pull requests are welcome!
 If you have ideas to improve the animation quality or extend features, feel free to open an issue or submit a PR.
+
 
 📫 Contact
 
@@ -180,11 +179,3 @@ If you have ideas to improve the animation quality or extend features, feel free
 
 ⭐ If you find this project interesting, don’t forget to give it a star! ⭐
 
-
-(Update README with detailed information)
-
-## 🚀 How It Works
-1. **Input** a static source image and a driving video.
-2. The model extracts **key facial landmarks** and motion vectors from the driving video.
-3. Motion is **transferred to the static image**, animating it with realistic expressions and movements.
-4. The **Generator Network** synthesizes a video where the image mimics the motion in the driving video.
