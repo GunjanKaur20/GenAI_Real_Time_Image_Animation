@@ -5,10 +5,6 @@
 
 This project brings static images to life by animating them using motion patterns from a driving video, powered by deepfake generation techniques. Based on the First Order Motion Model for Image Animation, it uses advanced deep learning architectures like ResNext CNN and LSTM to animate a source image based on a driving video, creating  realistic facial or body motions - a core concept behind deepfakes.
 
- 🚀 Demo
-
-| Source Image | Animated Output | Driving Video |
-![alt text](image.png)
 
 
 📌 Features
@@ -56,6 +52,7 @@ This project brings static images to life by animating them using motion pattern
 - Extensible for applications in entertainment, virtual avatars, and deepfake detection.
 
 ## 🧠 Tech Stack
+
 - **Python**
 - **PyTorch**
 - **OpenCV**, **FFmpeg**
@@ -65,6 +62,7 @@ This project brings static images to life by animating them using motion pattern
 
 
 ## 📂 Project Structure
+
 Real_Time_Image_Animation/
 ├── checkpoints/                 # Pre-trained model weights (.pth files)
 │   └── <model_name>.pth
