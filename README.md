@@ -3,6 +3,20 @@
 
         **Bring still images to life in real-time!**  
 
+![GitHub repo size](https://img.shields.io/github/repo-size/GunjanKaur20/GenAI_Real_Time_Image_Animation)
+![GitHub contributors](https://img.shields.io/github/contributors/GunjanKaur20/GenAI_Real_Time_Image_Animation)
+![GitHub last commit](https://img.shields.io/github/last-commit/GunjanKaur20/GenAI_Real_Time_Image_Animation)
+![GitHub stars](https://img.shields.io/github/stars/GunjanKaur20/GenAI_Real_Time_Image_Animation?style=social)
+![GitHub forks](https://img.shields.io/github/forks/GunjanKaur20/GenAI_Real_Time_Image_Animation?style=social)
+![Issues](https://img.shields.io/github/issues/GunjanKaur20/GenAI_Real_Time_Image_Animation)
+![License](https://img.shields.io/github/license/GunjanKaur20/GenAI_Real_Time_Image_Animation)
+
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch-red?logo=pytorch)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey)
+
+
 This project brings static images to life by animating them using motion patterns from a driving video, powered by deepfake generation techniques. Based on the First Order Motion Model for Image Animation, it uses advanced deep learning architectures like ResNext CNN and LSTM to animate a source image based on a driving video, creating  realistic facial or body motions - a core concept behind deepfakes.
 
 
